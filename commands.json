@@ -1,0 +1,1565 @@
+{
+  "commands": {
+    "😀 Fun": [
+      {
+        "name": "8ball",
+        "aliases": ["8b"],
+        "description": "Gives a totally calculated answer to your question",
+        "cooldown": 6000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<question>"
+      },
+      {
+        "name": "ascii",
+        "aliases": ["asc"],
+        "description": "Sends the specified message in random ascii",
+
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<message ...>"
+      },
+      {
+        "name": "bored",
+        "aliases": ["boredom"],
+        "description": "Responds with a random activity to try when you're bored.",
+        "cooldown": 2000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "butt",
+        "aliases": ["butts", "ass", "booty"],
+        "description": "Determines a user's butt quality.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "cat",
+        "aliases": ["kitty", "kwitty", "cats", "kitten"],
+        "description": "Sends a random kitty!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "chat",
+        "description": "Chat with the bot! (Alternative to chatbot channel)",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<message>"
+      },
+      {
+        "name": "coinflip",
+        "aliases": ["cf"],
+        "description": "Flips a coin (or coins)",
+        "cooldown": 2000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "[c] or [number of coins]"
+      },
+      {
+        "name": "coolness",
+        "aliases": ["cool", "kewl", "kool"],
+        "description": "Determines a user's coolness.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "cuteness",
+        "aliases": ["cute", "cutey", "qt"],
+        "description": "Determines a user's cuteness.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "dare",
+        "description": "Dare someone!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<user>"
+      },
+      {
+        "name": "emoji",
+        "aliases": ["emote"],
+        "description": "Sends a random emoji",
+
+        "requires": "",
+        "usage": "<text...>"
+      },
+      {
+        "name": "freenitro",
+        "description": "Owo what's this?!",
+        "cooldown": 6000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<question>"
+      },
+      {
+        "name": "friendship",
+        "aliases": [
+          "friendship-meter",
+          "friends",
+          "friend",
+          "friendship-tester",
+          "friendship-test",
+          "friend-test"
+        ],
+        "description": "Determines a user's looks.",
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "[user1] <user2>"
+      },
+      {
+        "name": "gay",
+        "aliases": ["gayrate"],
+        "description": "You gay?",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "guess-looks",
+        "aliases": ["guess-my-looks", "g-l"],
+        "description": "Determines a user's looks.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "kiss-marry-kill",
+        "aliases": [
+          "kiss-kill-marry",
+          "kill-kiss-marry",
+          "kill-marry-kiss",
+          "marry-kiss-kill",
+          "marry-kill-kiss",
+          "fuck-marry-kill",
+          "fuck-kill-marry",
+          "kill-fuck-marry",
+          "kill-marry-fuck",
+          "marry-fuck-kill",
+          "marry-kill-fuck",
+          "kmk",
+          "kkm",
+          "mkk",
+          "fmk",
+          "mfk",
+          "kfm",
+          "kmf",
+          "fkm",
+          "mkf"
+        ],
+        "description": "Determines who to kiss, who to marry, and who to kill.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<user1> <user2> <user3>"
+      },
+      {
+        "name": "lovecalc",
+        "aliases": ["lc"],
+        "description": "See how much love there is between you and someone",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "meme",
+        "aliases": ["memey"],
+        "description": "Displays a random meme from reddit!",
+        "cooldown": 4000,
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "never-have-i-ever",
+        "aliases": ["nhie", "never-have-i", "never-have", "never-ever"],
+        "description": "Responds with a random \"Never Have I Ever...\" statement.",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "pp",
+        "aliases": ["ppsize", "penis"],
+        "description": "See how big your or friend's pp is",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "psycho-pass",
+        "aliases": ["crime-coefficient"],
+        "description": "Determines your Crime Coefficient.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "reddit",
+        "aliases": ["rd"],
+        "description": "Returns a random content from a subreddit",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<subreddit>"
+      },
+      {
+        "name": "roll",
+        "description": "Generates a random number from 0.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<max>"
+      },
+      {
+        "name": "say",
+        "aliases": ["echo"],
+        "description": "Sends the specified message",
+
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<message ...>"
+      },
+      {
+        "name": "sayas",
+        "description": "Says a message as another user.",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS", "MANAGE_WEBHOOKS"],
+        "usage": "<user> <message ...>"
+      },
+      {
+        "name": "simp",
+        "aliases": ["simprate"],
+        "description": "simp?",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "smash-or-pass",
+        "aliases": ["pass-or-smash", "smash-pass", "pass-smash"],
+        "description": "Determines if a user is worthy of a smash or a pass.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "truth",
+        "description": "Ask a truth question!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<user>"
+      },
+      {
+        "name": "waifu",
+        "aliases": ["waifurate"],
+        "description": "See how good of a waifu you are",
+        "botrequires": ["EMBED_LINKS"]
+      }
+    ],
+    "🤗 Actions": [
+      {
+        "name": "bite",
+        "description": "Bite a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "blush",
+        "description": "😳",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "cry",
+        "description": "cry...",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "cuddle",
+        "description": "Cuddle a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "dance",
+        "description": "dance dance dance",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "feed",
+        "description": "Feed a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "happy",
+        "description": "Show the wrold you're happy!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "holdhands",
+        "description": "Awwww",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "hug",
+        "aliases": ["hg"],
+        "description": "Hug a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "kill",
+        "aliases": ["shoot"],
+        "description": "Who doesn't love killing their friends?",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "kiss",
+        "description": "Kiss a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "lick",
+        "description": "Allows you to lick your friends to show your disdain for them! :)",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "pat",
+        "aliases": ["patpat"],
+        "description": "Pat a user!",
+        "cooldown": 6000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      },
+      {
+        "name": "poke",
+        "aliases": ["pok"],
+        "description": "Poke a user!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "roast",
+        "aliases": ["rst"],
+        "description": "Who doesn't love roasting their friends?",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "shoot",
+        "aliases": ["shot"],
+        "description": "Who doesn't shooting roasting their friends?",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "slap",
+        "aliases": ["slappp"],
+        "description": "Allows you to slap your friends to show your disdain for them! :)",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "sleep",
+        "description": "😴",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "smile",
+        "description": "smile at someone!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[user]"
+      },
+      {
+        "name": "smug",
+        "aliases": ["smg"],
+        "description": "Posts a random picture of a smug anime girl",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "stare",
+        "aliases": ["str"],
+        "description": "Stare a user!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "tickle",
+        "aliases": ["shake"],
+        "description": "tickle tickle!",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      },
+      {
+        "name": "wave",
+        "description": "Wave at someone!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[user]"
+      },
+      {
+        "name": "wink",
+        "description": "wink wink",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[user]"
+      }
+    ],
+    "🎴 Image": [
+      {
+        "name": "be-like-soop",
+        "aliases": ["be-like"],
+        "description": "Memegen - Be-like-soop",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "requires": "",
+        "usage": "[name]"
+      },
+      {
+        "name": "beautiful",
+        "aliases": ["beaut"],
+        "description": "Imagegen - Beautiful",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<user>"
+      },
+      {
+        "name": "blurpify",
+        "aliases": ["blrpfy"],
+        "description": "Memegen - Blurpify a user",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      },
+      {
+        "name": "boardroom",
+        "aliases": ["boardroom-suggestion", "boardroom-meeting"],
+        "description": "Memegen - boardroom-meeting",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "changemymind",
+        "aliases": ["chmm"],
+        "description": "Memegen - Change my mind",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<text ...>"
+      },
+      {
+        "name": "chrome",
+        "aliases": ["tps"],
+        "description": "Imagegen - This page says",
+        "cooldown": 4000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<text>"
+      },
+      {
+        "name": "fluff",
+        "aliases": ["fluffy"],
+        "description": "Posts a random cute animal!",
+        "cooldown": 5000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "iphonex",
+        "aliases": ["iphx"],
+        "description": "Memegen - iphonex",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      },
+      {
+        "name": "message",
+        "aliases": ["msg"],
+        "description": "Imagegen - notification",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<@user> <text...>"
+      },
+      {
+        "name": "notfound",
+        "aliases": ["nf"],
+        "description": "Imagegen - URL Not found",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<text...>"
+      },
+      {
+        "name": "notification",
+        "aliases": ["notif"],
+        "description": "Imagegen - notification",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<text>"
+      },
+      {
+        "name": "phcomment",
+        "aliases": ["phc"],
+        "description": "Memegen - umm",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user> <text...>"
+      },
+      {
+        "name": "phoebe-teach",
+        "aliases": ["phoebe", "phoebe-teach", "joey", "phoebe-teach-joey"],
+        "description": "Sends a \"Phoebe Teaching Joey\" meme with text of your choice.",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "qr",
+        "aliases": ["qrcode"],
+        "description": "Generate a QR code for your text!",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<text>"
+      },
+      {
+        "name": "shazam",
+        "aliases": ["shz"],
+        "description": "Imagegen - shazam",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<text>"
+      },
+      {
+        "name": "spotify",
+        "aliases": ["sptfy"],
+        "description": "Imagegen - notification",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<text>"
+      },
+      {
+        "name": "thesimp",
+        "aliases": ["thesimps"],
+        "description": "Imagegen - The Simps",
+        "cooldown": 3000,
+        "botrequires": ["ATTACH_FILES", "EMBED_LINKS"],
+        "usage": "<@user>"
+      },
+      {
+        "name": "threats",
+        "aliases": ["threat"],
+        "description": "Memegen - 3 biggest Threats",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      },
+      {
+        "name": "whowouldwin",
+        "aliases": ["www"],
+        "description": "Memegen - whowouldwin",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<@user>"
+      }
+    ],
+    "💸 Economy": [
+      {
+        "name": "balance",
+        "aliases": ["bal", "coins", "cash"],
+        "description": "Check how much coins you or a user have",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user]"
+      },
+      {
+        "name": "beg",
+        "description": "beg for some coins",
+        "cooldown": 10000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "buy",
+        "description": "Buy items from the shop",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<item> [qty]"
+      },
+      {
+        "name": "daily",
+        "description": "Claim your daily coins",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "deposit",
+        "aliases": ["dep"],
+        "description": "Deposit coins to your bank",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<all> or <amount>"
+      },
+      {
+        "name": "fish",
+        "description": "Chance to catch upto 5 fishes!",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "gamble",
+        "aliases": ["bet"],
+        "description": "flip your coins",
+        "cooldown": 3000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<amount> or <max/all>"
+      },
+      {
+        "name": "gift",
+        "description": "gift an item to a user",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<qty> <item> <user>"
+      },
+      {
+        "name": "inventory",
+        "aliases": ["inv", "items"],
+        "description": "Check items you or a friend have",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "leaderboard",
+        "aliases": ["lb", "rich"],
+        "description": "Global top 10 users for a given category",
+        "requires": "",
+        "usage": "[fish]"
+      },
+      {
+        "name": "monthly",
+        "description": "Claim your monthly coins",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "profile",
+        "aliases": ["lvl", "level"],
+        "description": "Generates profile info",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[user]"
+      },
+      {
+        "name": "redeem",
+        "aliases": ["r"],
+        "description": "Redeem 100k coins on joining support server for the first time!",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "redeem"
+      },
+      {
+        "name": "rob",
+        "aliases": ["steal"],
+        "description": "Steal from someone!",
+        "cooldown": 10000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user>"
+      },
+      {
+        "name": "sell",
+        "description": "Sell your items",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<item>"
+      },
+      {
+        "name": "share",
+        "aliases": ["give"],
+        "description": "Share your coins with someone",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<user> <amount>"
+      },
+      {
+        "name": "shop",
+        "description": "Check what's up for sale",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "slots",
+        "aliases": ["slot", "sl"],
+        "description": "Play slots for a profit- if you're lucky",
+        "cooldown": 4000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<amount> or <max/all>"
+      },
+      {
+        "name": "use",
+        "description": "Use your items",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<item>"
+      },
+      {
+        "name": "weekly",
+        "description": "Collect your weekly coins",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      },
+      {
+        "name": "withdraw",
+        "aliases": ["with"],
+        "description": "Withdraw coins from your bank",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<all/max> or <amount>"
+      },
+      {
+        "name": "work",
+        "description": "Work and earn some coins",
+        "cooldown": 20000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "-"
+      }
+    ],
+    "🎮 Mini-Games": [
+      {
+        "name": "bubblewrap",
+        "aliases": ["bw"],
+        "description": "Pop some virtual bubbles!",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": ""
+      },
+      {
+        "name": "connectfour",
+        "aliases": ["c4", "connect4"],
+        "description": "Play connect four game with reactions!",
+
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": ""
+      },
+      {
+        "name": "guess-emote",
+        "aliases": ["gemote"],
+        "description": "Guess emote game with auto channel-lock and unlock",
+        "botrequires": ["MANAGE_CHANNELS", "EMBED_LINKS", "ADD_REACTIONS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": ""
+      },
+      {
+        "name": "guess-number",
+        "aliases": ["gnum"],
+        "description": "Guess number game with auto channel-lock and unlock",
+        "botrequires": ["MANAGE_CHANNELS", "EMBED_LINKS", "ADD_REACTIONS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<max_number> [hint]"
+      },
+      {
+        "name": "hangman",
+        "description": "Guess letters and play classic hangman!",
+
+        "botrequires": ["EMBED_LINKS"],
+        "usage": ""
+      },
+      {
+        "name": "hungergames",
+        "aliases": ["hung"],
+        "description": "Add tributes to play hungergame max 24 tributes",
+
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "hungergame <tributes>"
+      },
+      {
+        "name": "minesweeper",
+        "aliases": ["msw"],
+        "description": "Gives you a random minesweeper field!",
+
+        "botrequires": ["EMBED_LINKS"],
+        "usage": ""
+      },
+      {
+        "name": "rps",
+        "description": "Play Rock paper scissors!",
+
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": ""
+      },
+      {
+        "name": "slidepuzzle",
+        "aliases": ["sp"],
+        "description": "Lets you play a sliding puzzle game!",
+        "cooldown": 10000,
+        "botrequires": ["EMBED_LINKS", "ATTACH_FILES"],
+        "usage": ""
+      },
+      {
+        "name": "snakegame",
+        "aliases": ["snake"],
+        "description": "Play snake game with reactions!",
+
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": ""
+      },
+      {
+        "name": "tictactoe",
+        "aliases": ["ttt"],
+        "description": "play ttt with an AI or challange a user for a duel!",
+
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "trivia",
+        "description": "Try and guess the correct Answer!",
+
+        "botrequires": ["EMBED_LINKS"],
+        "usage": ""
+      }
+    ],
+    "📚 Information": [
+      {
+        "name": "djs",
+        "aliases": ["djs-docs", "discordjs", "discord.js"],
+        "description": "View docs for discord.js.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<search_query>"
+      },
+      {
+        "name": "globalwhois",
+        "aliases": ["gwh", "gu", "gi"],
+        "description": "Shows information about a user.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<user_ID>"
+      },
+      {
+        "name": "help",
+        "aliases": ["?"],
+        "description": "Shows the command list or command info.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[command]"
+      },
+      {
+        "name": "invite",
+        "aliases": ["support", "inv"],
+        "description": "Sends the bot and server invite link.",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "minecraft",
+        "aliases": ["mc"],
+        "description": "Gives information about a minecraft server",
+        "cooldown": 2000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<Server IP> [Server Port]"
+      },
+      {
+        "name": "permissions",
+        "aliases": ["perms"],
+        "description": "Check channel permissions of a user",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[@user] [#channel]"
+      },
+      {
+        "name": "ping",
+        "aliases": ["pi", "pong"],
+        "description": "Checks the bot's latency to Discord.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<test> [optional]"
+      },
+      {
+        "name": "roleinfo",
+        "aliases": ["rinfo"],
+        "description": "Role info",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<role_name> or <role_ID>"
+      },
+      {
+        "name": "serverinfo",
+        "aliases": ["si"],
+        "description": "View current server information.",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "staff",
+        "aliases": ["mods"],
+        "description": "Get a list of the staff members",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": ""
+      },
+      {
+        "name": "stats",
+        "aliases": ["botinfo"],
+        "description": "View bot stats.",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "uptime",
+        "aliases": ["alive"],
+        "description": "Allows you to view how long iyBot has been running.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": ""
+      },
+      {
+        "name": "whois",
+        "aliases": ["whobe", "ui", "i"],
+        "description": "Shows information about a user",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<@user> or <user_ID>"
+      }
+    ],
+    "🪓 Moderation": [
+      {
+        "name": "ban",
+        "description": "Bans a member from the guild",
+        "botrequires": ["EMBED_LINKS", "BAN_MEMBERS"],
+        "requires": ["BAN_MEMBERS"],
+        "usage": "<@user> or <userID>"
+      },
+      {
+        "name": "clearwarn",
+        "aliases": ["clearwarns", "cw"],
+        "description": "-",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<@user> or <userID>"
+      },
+      {
+        "name": "kick",
+        "description": "Kicks a member from the guild",
+        "botrequires": ["EMBED_LINKS", "KICK_MEMBERS"],
+        "requires": ["KICK_MEMBERS"],
+        "usage": "<@user> or <userID>"
+      },
+      {
+        "name": "lock",
+        "aliases": ["lockdown"],
+        "description": "Locks a channel.",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<channel mention> or <channel ID>"
+      },
+      {
+        "name": "mute",
+        "description": "Mutes a member from the guild",
+        "botrequires": ["EMBED_LINKS", "MANAGE_ROLES"],
+        "requires": ["MANAGE_ROLES"],
+        "usage": "mute <@user> <reason>"
+      },
+      {
+        "name": "nuke",
+        "description": "Deletes the current channel and clones it to remove all messages.",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_CHANNELS"],
+        "usage": "Type the captcha to confirm"
+      },
+      {
+        "name": "purge",
+        "aliases": ["delete", "pu", "rm"],
+        "description": "Deletes multiple messages at once.",
+        "botrequires": [
+          "EMBED_LINKS",
+          "MANAGE_MESSAGES",
+          "READ_MESSAGE_HISTORY"
+        ],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<amount>"
+      },
+      {
+        "name": "role",
+        "description": "Add or remove a role to a user",
+        "botrequires": ["EMBED_LINKS", "MANAGE_ROLES"],
+        "requires": ["MANAGE_ROLES"],
+        "usage": "<user> <role>"
+      },
+      {
+        "name": "slowmode",
+        "aliases": ["sm"],
+        "description": "Sets cooldown to the channel.",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<time>"
+      },
+      {
+        "name": "tlock",
+        "aliases": ["trlock"],
+        "description": "Locks the channel in specified time (seconds) for a specified role (optional)",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<time> [role name] or [role ID]"
+      },
+      {
+        "name": "tunlock",
+        "aliases": ["trunlock"],
+        "description": "Unlocks the channel in specified time (seconds) for a specified role (optional)",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<time> [role name] or [role ID]"
+      },
+      {
+        "name": "unban",
+        "description": "Unbans a banned member from the guild",
+        "botrequires": ["EMBED_LINKS", "BAN_MEMBERS"],
+        "requires": ["BAN_MEMBERS"],
+        "usage": "User ID"
+      },
+      {
+        "name": "unlock",
+        "aliases": ["unlockdown"],
+        "description": "Unlocks a channel.",
+        "botrequires": ["EMBED_LINKS", "MANAGE_CHANNELS"],
+        "requires": ["MANAGE_MESSAGES"],
+        "usage": "<channel mention> or <channel ID>"
+      },
+      {
+        "name": "unmute",
+        "description": "Unmutes a member from the guild",
+        "botrequires": ["EMBED_LINKS", "MANAGE_ROLES"],
+        "requires": ["MANAGE_ROLES"],
+        "usage": "unmute <@user> <reason>"
+      },
+      {
+        "name": "warn",
+        "description": "-",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<@user> or <userID>"
+      },
+      {
+        "name": "warns",
+        "description": "-",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<@user> or <userID>"
+      }
+    ],
+    "🔧 Utility": [
+      {
+        "name": "addemoji",
+        "aliases": ["addemote"],
+        "description": "Adds an emoji to this server",
+        "cooldown": 6000,
+        "botrequires": ["EMBED_LINKS", "MANAGE_EMOJIS"],
+        "requires": ["MANAGE_EMOJIS"],
+        "usage": "<image attachment/url/@user> <name>"
+      },
+      {
+        "name": "afk",
+        "aliases": ["setafk"],
+        "description": "Set your afk reason.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[reason]"
+      },
+      {
+        "name": "avatar",
+        "aliases": ["av", "pfp"],
+        "description": "Gets your or another user's avatar.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[user]"
+      },
+      {
+        "name": "bug",
+        "aliases": ["bugreport"],
+        "description": "Send a bug report to the developers.",
+        "cooldown": 10000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<message>"
+      },
+      {
+        "name": "calc",
+        "aliases": ["math"],
+        "description": "Calculates a mathematical expression.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<expression>"
+      },
+      {
+        "name": "choose",
+        "aliases": ["ch"],
+        "description": "Chooses one of the given options.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<choice1> <choice2> [...]"
+      },
+      {
+        "name": "editsnipe",
+        "aliases": ["esn"],
+        "description": "Reveals the last edited message.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[#channel]"
+      },
+      {
+        "name": "embed",
+        "aliases": ["emb"],
+        "description": "Creates a simple embed message.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<title> ; [description] ; [footer] ; [image url]"
+      },
+      {
+        "name": "getemoji",
+        "aliases": ["emojilink", "emojiurl", "emlink", "emurl"],
+        "description": "Get the link of an emoji",
+
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "<emoji mention or id>"
+      },
+      {
+        "name": "random",
+        "aliases": ["rnd"],
+        "description": "Generates a random number.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<min> <max>"
+      },
+      {
+        "name": "reminder",
+        "aliases": ["tr", "rem", "remindme"],
+        "description": "Reminds you of something after certain amount of time.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<time> <message...>"
+      },
+      {
+        "name": "scale",
+        "aliases": ["sc", "resize"],
+        "description": "Resizes an image.",
+        "botrequires": ["ATTACH_FILES"],
+        "usage": "<width> <height> [noSmoothing] [image url]"
+      },
+      {
+        "name": "snipe",
+        "aliases": ["sn"],
+        "description": "Reveals the last deleted message.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[#channel]"
+      },
+      {
+        "name": "stealemoji",
+        "aliases": ["se"],
+        "description": "Adds an emoji to this server from another server",
+        "cooldown": 2000,
+        "botrequires": ["EMBED_LINKS", "MANAGE_EMOJIS"],
+        "requires": ["MANAGE_EMOJIS"],
+        "usage": "<emoji> <emoji_name>"
+      },
+      {
+        "name": "suggest",
+        "aliases": ["suggestion"],
+        "description": "Send a suggestion to the developers.",
+        "cooldown": 10000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<message>"
+      },
+      {
+        "name": "tags",
+        "aliases": ["tags-list", "tag-list"],
+        "description": "Lists tags for for the server",
+
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[-help]"
+      },
+      {
+        "name": "translate",
+        "aliases": ["trans"],
+        "description": "Translate your text!",
+        "cooldown": 6000,
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<language to translate to > <text to translate from>"
+      },
+      {
+        "name": "urban",
+        "aliases": ["define"],
+        "description": "Urban Dictionary.",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<term>"
+      }
+    ],
+    "🎊 Giveaways": [
+      {
+        "name": "gstart",
+        "aliases": ["giveaway-start"],
+        "description": "Starts a new giveaway with the given time and message!",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "<time> <winners> [<role>[role]] <message>",
+        "info": "yes"
+      },
+      {
+        "name": "gdelete",
+        "aliases": ["giveaway-delete"],
+        "description": "Deletes an active giveaway!",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "<message-id>"
+      },
+      {
+        "name": "gdrop",
+        "aliases": ["giveaway-drop"],
+        "description": "Timed flash giveaway. Drops a giveaway in a channel you specify. (optional)",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "[#channel] <time> <prize>"
+      },
+      {
+        "name": "gedit",
+        "aliases": ["giveaway-edit"],
+        "description": "Edits an active giveaway to anything you want, instead of delete and rehost!",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "<message-id>"
+      },
+      {
+        "name": "gend",
+        "aliases": ["giveaway-end"],
+        "description": "Ends a giveaway in advance! You don't have to wait the whole time out.",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "<message-id>"
+      },
+      {
+        "name": "glist",
+        "aliases": ["giveaway-list"],
+        "description": "This command lists all the active giveaways in your server!",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "glist"
+      },
+      {
+        "name": "greroll",
+        "aliases": ["giveaway-reroll"],
+        "description": "Re-rolls a member and chooses a different winner who just won a giveaway!",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "<message-id>"
+      }
+    ],
+    "🎶 Music": [
+      {
+        "name": "bassboost",
+        "aliases": ["bb"],
+        "description": "Set bassboost level",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"],
+        "usage": "[\"<none | low | medium | high>\"]"
+      },
+      {
+        "name": "jump",
+        "aliases": ["skipto"],
+        "description": "Jump to a specific track in queue",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<track_number>"
+      },
+      {
+        "name": "loop",
+        "description": "loop currently playing music or queue",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "lyrics",
+        "aliases": ["ly"],
+        "description": "Adjust current player volume",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "move",
+        "aliases": ["sk"],
+        "description": "Move tracks in current queue",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<track_1_number> <track_2_number>"
+      },
+      {
+        "name": "nowplaying",
+        "aliases": ["np"],
+        "description": "Show currently playing music",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "pause",
+        "aliases": ["pau"],
+        "description": "pause currently playing music",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "play-search",
+        "aliases": ["ps"],
+        "description": "Search list of music",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<URL or search term>"
+      },
+      {
+        "name": "play",
+        "aliases": ["p"],
+        "description": "Play high quality music",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<URL or search term>"
+      },
+      {
+        "name": "queue",
+        "aliases": ["q"],
+        "description": "Show current music queue",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "[queue 2] etc..."
+      },
+      {
+        "name": "remove",
+        "aliases": ["rem"],
+        "description": "remove a track from queue",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<track_number>"
+      },
+      {
+        "name": "resume",
+        "aliases": ["res"],
+        "description": "resume currently playing music",
+        "botrequires": ["EMBED_LINKS"]
+      },
+      {
+        "name": "seek",
+        "aliases": ["sk"],
+        "description": "seek currently playing track",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<seconds>"
+      },
+      {
+        "name": "shuffle",
+        "description": "shuffle currently playing queue",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "skip",
+        "aliases": ["skp"],
+        "description": "Skip currently playing music",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "stop",
+        "aliases": ["dc"],
+        "description": "Stop currently playing music",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      },
+      {
+        "name": "volume",
+        "aliases": ["dc"],
+        "description": "Adjust current player volume",
+        "botrequires": ["EMBED_LINKS", "ADD_REACTIONS"]
+      }
+    ],
+    "📝 Applications": [
+      {
+        "name": "app-accept",
+        "description": "Accept an application form",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<app_token> [message...]"
+      },
+      {
+        "name": "app-add",
+        "aliases": ["apps-add"],
+        "description": "Set application questions or create new apps",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": ""
+      },
+      {
+        "name": "app-delete",
+        "aliases": ["apps-delete"],
+        "description": "Set application questions or create new apps",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<app name (case sensisitve)>"
+      },
+      {
+        "name": "app-reject",
+        "aliases": ["app-deny"],
+        "description": "Reject an application form",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "<app_token> [message...]"
+      },
+      {
+        "name": "app-view",
+        "aliases": ["apps-view"],
+        "description": "Set application questions or create new apps",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": ""
+      },
+      {
+        "name": "apply",
+        "description": "",
+        "botrequires": ["EMBED_LINKS"],
+        "usage": "Apply for an application"
+      },
+      {
+        "name": "setapp-response-role",
+        "aliases": ["setapp-resp-role", "setappresponse-role"],
+        "description": "Set or reset default application accept reply.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<roleID | role name> or <-reset>"
+      },
+      {
+        "name": "setappdefault-accept",
+        "aliases": ["setappdef-accept"],
+        "description": "Set or reset default application accept reply.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<message...> or <-reset>"
+      },
+      {
+        "name": "setappdefault-reject",
+        "aliases": ["setappdef-deny"],
+        "description": "Set or reset default application accept reply.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<message...> or <-reset>"
+      },
+      {
+        "name": "setapplogs-channel",
+        "aliases": ["setapplogs-ch"],
+        "description": "Set or disable application logs channel.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<#channel> or <disable>"
+      },
+      {
+        "name": "setapply-channel",
+        "aliases": ["setapply-ch"],
+        "description": "Set or disable application apply channel.",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<#channel> or <disable>"
+      }
+    ],
+    "💸 Donations": [
+      {
+        "name": "donation",
+        "description": "Check how much coins you have donated to the server",
+        "aliases": ["dono"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user]"
+      },
+      {
+        "name": "dono-add",
+        "description": "Add coins to a user's donation records",
+        "aliases": ["d-add", "d-a"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user <amount>]"
+      },
+      {
+        "name": "dono-check",
+        "description": "Check how much someone has donated to the server!",
+        "aliases": ["d-check", "d-c"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user <amount>]"
+      },
+      {
+        "name": "dono-invadd",
+        "description": "Add coins to a user's investment records",
+        "aliases": ["d-inva", "dono-inva", "d-ia"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user <amount>]"
+      },
+      {
+        "name": "dono-invremove",
+        "description": "Remove coins from a user's investment records",
+        "aliases": ["d-invremove", "dono-invr", "d-invr", "d-invrem"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user <amount>]"
+      },
+      {
+        "name": "dono-remove",
+        "description": "Remove coins from a user's donation records",
+        "aliases": ["d-remove", "d-r"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": "",
+        "usage": "[@user <amount>]"
+      },
+      {
+        "name": "dono-setup",
+        "description": "Donation Commands Configuration",
+        "aliases": ["d-s", "d-setup"],
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_SERVER"],
+        "usage": "[@user]"
+      }
+    ],
+    "🔐 Administration": [
+      {
+        "name": "config",
+        "aliases": ["set"],
+        "description": "Change configs for this server",
+        "cooldown": 5000,
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<setting> <args>"
+      },
+      {
+        "name": "tagcreate",
+        "aliases": ["tag-create", "tagadd", "tag-add"],
+        "description": "Create or update custom tags for the server",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<tag_name> <response> [Run tags -help for more options!]"
+      },
+      {
+        "name": "tagdelete",
+        "aliases": ["tag-delete", "tagremove", "tag-remove"],
+        "description": "Delete custom tags for the server",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["MANAGE_GUILD"],
+        "usage": "<tag_name>"
+      },
+      {
+        "name": "tagsclear",
+        "aliases": ["tag-clear", "tagclear", "tag-removeall"],
+        "description": "Delete ALL custom tags for the server",
+        "botrequires": ["EMBED_LINKS"],
+        "requires": ["ADMINISTRATOR"],
+        "usage": "Enter captcha to confirm"
+      }
+    ]
+  }
+}

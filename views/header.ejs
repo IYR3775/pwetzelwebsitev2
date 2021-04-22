@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' rel='stylesheet'>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img src="<%= bot.avatar %>" alt="<%= bot.name %>" width="30" height="30" class="d-inline-block align-top">
+            <b><%= bot.name %></b>
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ntoggle" aria-controls="ntoggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="ntoggle">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/commands"><i class="fas fa-terminal"></i> Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/docs"><i class="fas fa-book"></i> Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/developers"><i class="fas fa-code"></i> Developers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://api.pwetzel.xyz"><i class="fas fa-cloud"></i> API</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<%= bot.invite %>"><i class="bi bi-discord"></i> Invite</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-outline-success" type="button"><i class="bi bi-discord"></i><b> Login</b></button>
+            </form>
+        </div>
+    </div>
+</nav>

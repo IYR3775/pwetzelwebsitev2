@@ -1,0 +1,23 @@
+{
+  "name": "pwetzel-web-v2",
+  "version": "1.0.0",
+  "description": "Website and dashboard for pwetzel bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pp"
+  ],
+  "author": "IYA",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
