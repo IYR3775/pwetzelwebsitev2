@@ -3,52 +3,5 @@
       "name": "Pwetzel",
       "avatar": "https://cdn.discordapp.com/avatars/723112579584491571/987d4ae9a369ed2b38bc1951576f91fd.png?size=4096",
       "invite": "https://withwin.in/dbd"
-    },
-  
-    "commands" : {
-      "basic": [{
-        "name": "help",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD"],
-        "aliases": ["h"],
-        "usage": "?help <cmd>"
-      }, {
-        "name": "kill",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "BAN_NERD"],
-        "aliases": [],
-        "usage": "?kill silent"
-      }, {
-        "name": "emoji_pp",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "MANAGE_PP"],
-        "aliases": ["pp", "epp"],
-        "usage": "?emoji_pp <hard/soft/no_pp>"
-      }],
-      "moderation": [{
-        "name": "ban",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD"],
-        "aliases": ["ac", "addc"],
-        "usage": "?ban <@mention> <reason>"
-      }, {
-        "name": "kick",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "BAN_NERD"],
-        "aliases": ["kick"],
-        "usage": "?kick <@mention> <reason>"
-      }, {
-        "name": "mute",
-        "category": "basic",
-        "description": "Add the code on website with the help of this command.",
-        "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "MANAGE_PP"],
-        "aliases": ["mute"],
-        "usage": "?mute <@mention> <reason>"
-      }]
     }
   }
