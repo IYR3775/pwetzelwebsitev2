@@ -1,124 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-              <!-- favicon -->
-        <link rel='icon' href='<%= bot.avatar %>' type='image/x-icon' sizes="16x16" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-         <!-- Font Awesome -->
-       <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' rel='stylesheet'>
-        <!-- Google Fonts -->
-       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-        <link rel="stylesheet" href="/index.css">        
-        <link rel="stylesheet" href="/profilecard.css">
-        <link rel="stylesheet" href="/firefly.css">
-        <title><%= bot.name %> Developers</title> 
-        <!-- FIREFLY ANIMATION -->
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div>
-<div class="firefly"></div> 
-    </head>
 
-    <body>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<head>
+	<meta charset="utf-8">
+	<!-- favicon -->
+	<link rel='icon' href='<%= bot.avatar %>' type='image/x-icon' sizes="16x16" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' rel='stylesheet'>
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<link rel="stylesheet" href="/index.css">
+	<link rel="stylesheet" href="/profilecard.css">
+	<link rel="stylesheet" href="/firefly.css">
+	<title>
+		<%= bot.name %> Developers
+	</title>
+	<!-- FIREFLY ANIMATION -->
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+	<div class="firefly"></div>
+</head>
 
-      <%- include('header'); -%>
-      <div class="d-flex justify-content-center command_head">
-      <h1> Developers </h1>
-      </div>
-          
-      <div class= "card-container">
-      </div class= "cell1">
-      </div>
-      <div class="d-flex justify-content-center gap-2">
-    <!--First-->
-    
-    <div class="card">
-        <div class="adjust">
-            <img src="https://cdn.discordapp.com/avatars/703865541248679956/5b68a6a16d18258ae72786b49c645365.png?size=256" alt="profile img" class="rounded-circle" width="80px" height="80px">
-            <h1 class="text-white">IYA#2802</h1>
-        </div>
-    
-     <!---Second-->  
-    
-    <div class="card-body second">
-        <p class="text-social">
-            Social Media
-        </p>
-    <a href="https://youtube.com">
-        <img src="https://cdn.discordapp.com/attachments/591157769181069332/752117422483308544/youtube.png" alt="youtube icon" class="social youtube" height="40" width="40">
-    </a>
-    <a href="https://github.com/IYR3775">
-        <img src="https://discordapp.com/assets/5d69e29f0d71aaa04ed9725100199b4e.png" alt="github icon" class="social youtube" height="40" width="40">
-    </a>
-    <a href="https://twitter.com">
-        <img src="https://discordapp.com/assets/4662875160dc4c56954003ebda995414.png" alt="twitter icon" class="social youtube" height="40" width="40">
-    </a>
-    <a href="https://twitch.tv">
-        <img src="https://i.pinimg.com/originals/35/97/3d/35973d949f596702ab7020bfbae9ac68.png" alt="twitch icon" class="social youtube" height="40" width="40">
-    </a>
-        </div>
-    
-        <!--Third-->
-    
-        <div class="card-body third">
-        <p class="text-social">Bio</p>
-        <p class="text-bio">Meow</p>
-      </div>
-</div>
-      </div>
+<body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"></script>
 
-            <!--First-->
-    <div class="cell2">
-    
-    <div class="card">
-      <div class="adjust">
-          <img src="https://cdn.discordapp.com/avatars/460078206326800434/c8935f8400004b5bdd4b55d3b1cf1f35.png?size=256" alt="profile img" class="rounded-circle" width="80px" height="80px">
-          <h1 class="text-white">Liaamm#6205</h1>
-      </div>
-  
-   <!---Second-->  
-  
-  <div class="card-body second">
-      <p class="text-social">
-          Social Media
-      </p>
-  <a href="https://youtube.com">
-      <img src="https://cdn.discordapp.com/attachments/591157769181069332/752117422483308544/youtube.png" alt="youtube icon" class="social youtube" height="40" width="40">
-  </a>
-  <a href="https://github.com">
-      <img src="https://discordapp.com/assets/5d69e29f0d71aaa04ed9725100199b4e.png" alt="github icon" class="social youtube" height="40" width="40">
-  </a>
-  <a href="https://twitter.com">
-      <img src="https://discordapp.com/assets/4662875160dc4c56954003ebda995414.png" alt="twitter icon" class="social youtube" height="40" width="40">
-  </a>
-  <a href="https://twitch.tv">
-      <img src="https://i.pinimg.com/originals/35/97/3d/35973d949f596702ab7020bfbae9ac68.png" alt="twitch icon" class="social youtube" height="40" width="40">
-  </a>
-      </div>
-  
-      <!--Third-->
-  
-      <div class="card-body third">
-      <p class="text-social">Bio</p>
-      <p class="text-bio">Tech Support</p>
-      </div>
-    </div>
-  </div>
-</div>
-    </body>
+	<%- include('header'); -%>
+		<div class="d-flex justify-content-center command_head">
+			<h1> Developers </h1>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="adjust">
+							<img src="https://images-ext-1.discordapp.net/external/NhO-g4gX8f-r6oq5a2_BRrBhhUzah9sNjMgxikZly0E/%3Fsize%3D256/https/cdn.discordapp.com/avatars/703865541248679956/4f4d97cb0e00b2ee11f39e4ff7749ac6.png"
+								alt="profile img" class="rounded-circle" width="80px" height="80px">
+							<h1 class="text-white">IYA#2802</h1>
+						</div>
+
+						<!---Second-->
+
+						<div class="card-body second">
+							<p class="text-social">
+								Social Media
+							</p>
+							<a href="https://youtube.com">
+								<img src="https://cdn.discordapp.com/attachments/591157769181069332/752117422483308544/youtube.png"
+									alt="youtube icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://github.com/IYR3775">
+								<img src="https://discordapp.com/assets/5d69e29f0d71aaa04ed9725100199b4e.png"
+									alt="github icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://twitter.com">
+								<img src="https://discordapp.com/assets/4662875160dc4c56954003ebda995414.png"
+									alt="twitter icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://twitch.tv">
+								<img src="https://i.pinimg.com/originals/35/97/3d/35973d949f596702ab7020bfbae9ac68.png"
+									alt="twitch icon" class="social youtube" height="40" width="40">
+							</a>
+						</div>
+
+						<!--Third-->
+
+						<div class="card-body third">
+							<p class="text-social">Bio</p>
+							<p class="text-bio">Meow</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="adjust">
+							<img src="https://images-ext-1.discordapp.net/external/a4sALv9miqoGut6ZR2xZL6VHZyvwWX9zs0D26czBo3o/%3Fsize%3D256/https/cdn.discordapp.com/avatars/460078206326800434/b6e29095a43ea01b6ac79b8b66f4ff7e.png"
+								alt="profile img" class="rounded-circle" width="80px" height="80px">
+							<h1 class="text-white">Liaamm#6205</h1>
+						</div>
+
+						<!---Second-->
+
+						<div class="card-body second">
+							<p class="text-social">
+								Social Media
+							</p>
+							<a href="https://youtube.com">
+								<img src="https://cdn.discordapp.com/attachments/591157769181069332/752117422483308544/youtube.png"
+									alt="youtube icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://github.com">
+								<img src="https://discordapp.com/assets/5d69e29f0d71aaa04ed9725100199b4e.png"
+									alt="github icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://twitter.com">
+								<img src="https://discordapp.com/assets/4662875160dc4c56954003ebda995414.png"
+									alt="twitter icon" class="social youtube" height="40" width="40">
+							</a>
+							<a href="https://twitch.tv">
+								<img src="https://i.pinimg.com/originals/35/97/3d/35973d949f596702ab7020bfbae9ac68.png"
+									alt="twitch icon" class="social youtube" height="40" width="40">
+							</a>
+						</div>
+
+						<!--Third-->
+
+						<div class="card-body third">
+							<p class="text-social">Bio</p>
+							<p class="text-bio">Tech Support</p>
+						</div>
+					</div>
+				</div>
+			</div>
+</body>
+
 </html>

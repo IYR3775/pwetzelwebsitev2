@@ -2,22 +2,15 @@
     background-color: rgb(36,36,33);
     width: 250px;
     border-radius: 5px;
+	min-height: 425px;
 }
 
-.card-container {
-    display: flexbox;
-    flex-wrap: wrap;
-    height: 100%;
-    align-self: flex-start;
-}
 
 .cell1 {
-    flex: 1 1 100%;
     height: auto;
 }
 
 .cell2 {
-    flex: 1 1 100%;
     height: auto;
 }
 
@@ -71,5 +64,4 @@
     margin-top: 16px;
     font-weight: 500;
     color: #fff;
-    float: left;
 }
