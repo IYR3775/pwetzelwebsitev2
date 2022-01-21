@@ -1,0 +1,39 @@
+       <div class="container custom-1">
+            <img class="custom-image" src="https://media.discordapp.net/attachments/934028202626674759/934028261577609216/dono.png" class="img-fluid mx-auto">
+            <h3><b>Donation Tracking</b></h3>
+            <p>
+                Easily track bot currency and monitary donations
+            </p>
+        </div>
+
+        <div class="container pt-10 custom-2">
+            <img src="https://media.discordapp.net/attachments/934028202626674759/934028262286430228/giveway.png">
+            <h3><b>Givaways</b></h3>
+            <p>
+                Quickly Create Givaways that keep your server engaged 
+            </p>
+        </div>
+
+        <div class="container custom-1 pt-16">
+            <img class="custom-image" src="https://media.discordapp.net/attachments/934028202626674759/934028261971861504/games.png">
+            <h3><b>Fun and Games</b></h3>
+            <p>
+                Play games with your friends, or have a competition for a prize. Aswell as many misc commands
+            </p>
+        </div>
+
+        <div class="container pt-10 custom-2">
+            <img src="https://media.discordapp.net/attachments/934028202626674759/934028262554886144/interactions.png">
+            <h3><b>Social</b></h3>
+            <p>
+                Interact with others with multiple action/social commands
+            </p>
+        </div>
+         <div class="container custom-1 pt-16">
+            <img class="custom-image" src="https://media.discordapp.net/attachments/934028202626674759/934028261242044476/appcmd.png">
+           <br>
+            <h3><b>Server Applications</b></h3>
+            <p>
+               Easily manage your server and staff with features like the easy application builder
+            </p>
+        </div>

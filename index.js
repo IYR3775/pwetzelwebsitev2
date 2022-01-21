@@ -25,6 +25,14 @@ app.get("/developers", (req, res) => {
   res.render("developers", { bot: settings.website })
 })
 
+app.get("/thankyou", (req, res) => {
+  res.render("thankyou", { bot: settings.website })
+})
+
+app.get("/legal", (req, res) => {
+  res.render("legal", { bot: settings.website })
+})
+
 app.use(errorHandler.httpError(404));
 
 app.use(handler);
