@@ -45,6 +45,15 @@ form.d-flex button:hover {
   text-align: center;
 }
 
+.subtextalt {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255, 0.55);
+  line-height: 1.3;
+  text-align: center;
+}
+
 .codeblock {
   padding-bottom: 230px;
   padding-right: 30px;
@@ -115,6 +124,70 @@ form.d-flex button:hover {
   float: right;
   width: 40%;
   color: rgb(255, 255, 255, 0.55);
+}
+
+.adjust {
+    padding: 16px;
+}
+
+.text-white {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.second {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #2f3136;
+    width: 250;
+}
+
+.third {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #7289da;
+    width: 250;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text-social {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1.3px;
+}
+
+.social {
+    float: left;
+    margin: 14px;
+}
+
+.youtube {
+    margin-left: 5px;
+}
+
+.btnn {
+    height: 60px;
+    width: 200px;
+    margin: 0rem;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    float: left;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.text-bio {
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
 }
 
 /* MEDIA */

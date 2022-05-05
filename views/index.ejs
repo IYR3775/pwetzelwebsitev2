@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/index.css">
         <link rel="stylesheet" href="/firefly.css">
         
-        <title><%= bot.name %></title>
+        <title><%= bot.name %> - Discord Bot</title>
         <!-- FIREFLY ANIMATION -->
 <div class="firefly"></div>
 <div class="firefly"></div>
@@ -48,7 +48,7 @@
         </div>
         <div class="d-flex justify-content-center gap-2 d-mx-auto">
 
-            <a class="btn btn-primary" role="button" href="https://top.gg/servers/785823585935294494/join">Join Support Server</a>
+            <a class="btn btn-primary" role="button" href="https://discord.com/invite/dBMKZ4KzVz">Join Support Server</a>
           
             <a class="btn btn-primary" role="button" href="https://discord.com/api/oauth2/authorize?client_id=723112579584491571&permissions=1100857322614&scope=bot%20applications.commands&redirect_uri=https%3A%2F%2Fpwetzel.xyz%2Fthankyou">Add bot</a>
            
@@ -56,12 +56,12 @@
           <br>
           <div class="d-flex justify-content-center gap-2 d-mx-auto">
 
-            <a class="btn btn-danger" role="button" href="https://discord.com/api/oauth2/authorize?client_id=723112579584491571&permissions=8&scope=bot%20applications.commands&redirect_uri=https%3A%2F%2Fpwetzel.xyz%2Fthankyou">Add bot with admin (Recomended)</a>
+            <a class="btn btn-danger" role="button" href="https://discord.com/api/oauth2/authorize?client_id=723112579584491571&permissions=8&scope=bot%20applications.commands&redirect_uri=https%3A%2F%2Fpwetzel.xyz%2Fthankyou">Add bot with admin (Recommended)</a>
            
           </div>
           <br>
         <div class="d-flex justify-content-center subtext">
-            <p><strong>3,519 Servers</strong> and counting</p>
+            <p><strong><%=stats.serverCount.toLocaleString()%> Servers</strong> and counting</p>
         </div>
         <div class="container">
  <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -110,8 +110,17 @@
       </div>
     </div>
   </div>
+   <div class="col">
+    <div class="card h-100 bg-primary border-primary border-5 mb-3"> <!-- hmmmm-->
+      <img src="" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Comming Soon</h5>
+        <p class="card-text">More things will exist later and be super cool you should like add this bot now it would mean a lot</p>
+      </div>
+    </div>
+  </div>
 </div>
-        </div>
+        </div> 
         <%- include('footer'); -%>
 
        <!--JS-->
